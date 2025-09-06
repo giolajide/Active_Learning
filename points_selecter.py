@@ -1,3 +1,8 @@
+"""
+This script will provide the basis for rationally selecting structures on which to do DFT singlepoints to add to train/valid set
+
+Sept 2025: Not sure how good or bad this script is; never went back to improve it
+"""
 from nequip.ase import NequIPCalculator
 from argparse import ArgumentParser
 import torch
@@ -31,7 +36,7 @@ PERCENTILE = 65                             #consider structures in the 80th per
                                             #TODO: sigh
 
 
-"""This script will provide the basis for rationally selecting structures on which to do DFT singlepoints to add to train/valid set"""
+
 #warnings.filterwarnings("ignore")
 
 def define_selection_interval(
