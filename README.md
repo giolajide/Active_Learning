@@ -25,3 +25,10 @@ For example:
 python points_selecter.py --model_paths MLIP/l02.mlip MLIP/42g.mlip --trajectories 0/400.0/400.0.traj 2/350.0/350.0.traj --uncertainty_threshold 0.0025 --selection_cap 30 --divisions 6 --sizing_mode nanoparticle_size --np_atom_type ag --submit_directory ${PWD}/SinglePoints --write_interval 30 -t 5
 
 
+
+
+September 2025
+------------
+
+This is now just a relic
+
