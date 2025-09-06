@@ -1,7 +1,5 @@
 """
-Supposed to select points to retrain on
-Extremely rudimentary; never got back to improving it
-Do not recommend in current form
+Controller
 """
 from ase.visualize import view
 from nequip.ase import NequIPCalculator
