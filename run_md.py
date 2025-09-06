@@ -1,3 +1,9 @@
+"""
+This script runs MD using an MLIP
+
+Sept 2025: Written 8 months ago; haven't used since.
+Can it still be useful?
+"""
 from argparse import ArgumentParser
 from sys import argv, exit
 #from nequip.ase import NequIPCalculator
@@ -37,7 +43,6 @@ OPT_STEPS = 2000
 CHECK_FREQUENCY = 10 #ps
 
 
-"""This script runs MD using an MLIP"""
 
 def initialize_md(atoms: Atoms, temperature: float):
     """Initialize MD with an M-B distribution of velocities and set the COM stationary"""
