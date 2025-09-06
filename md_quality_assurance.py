@@ -1,3 +1,9 @@
+
+"""
+In this script, we develop tools to check your MD run and detect if something has gone wrong
+
+Sept 2025: Even now, 8 months later, I think this may still be of considerable use
+"""
 from argparse import ArgumentParser
 from sys import argv, exit
 import numpy as np
@@ -20,7 +26,6 @@ MIN_COORDINATION = 1 #bonds
 BOND_SCALING_FACTOR = 1.08
 MODE = "return"
 
-"""In this script, we develop tools to check your MD run and detect if something has gone wrong"""
 
 class SimulationError(Exception):
     """Exception raised for errors that occur during simulation."""
